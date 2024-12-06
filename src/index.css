@@ -316,3 +316,17 @@ p {
 	margin: 0;
 	font-size: 14px;
 }
+
+.ContainerFoto{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-template-rows: repeat(1,1fr);
+	
+}
+
+.fotoA{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	background-image: url('./img/imagendef.jpg');
+	background-size: cover;
+}
