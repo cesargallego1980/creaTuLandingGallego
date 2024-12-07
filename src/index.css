@@ -329,4 +329,5 @@ p {
 	grid-row: 1/2;
 	background-image: url('./img/imagendef.jpg');
 	background-size: cover;
+	height: 500px;
 }

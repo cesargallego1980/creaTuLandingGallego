@@ -8,15 +8,13 @@ import './App.css'
 
 function App() {
   //ALERTA PARA CONTADOR
-  const handleAddToCart = (quantity) => {
-    alert(`Has agregado ${quantity} producto(s) al carrito`);
-  };
+
   return (
     <>
 
       <Navegacion/>
       <Container/>
-      <MainPage stock={10} initial={1} onAdd={handleAddToCart}/>
+      <MainPage/>
       
       <Footer2/>
     </>
