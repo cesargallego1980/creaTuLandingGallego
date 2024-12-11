@@ -59,9 +59,10 @@ const MainPage = () => {
         <>
          <div className='container'>
             {
-                product.map(producto=>{
+                product.map((producto, index)=>{
                 return  <Productos stock={10} initial={1} onAdd={handleAddToCart}
                     img={producto.img}
+                    key={index}
                     titulo={producto.titulo}
                     titulo2={producto.titulo2}
                     descripcion={producto.descripcion}
