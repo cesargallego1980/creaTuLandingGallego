@@ -29,21 +29,12 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/ubicacion" element={<MapEmbed />} />
         <Route path="*" element={<Componente404 />} />
-        {/*<Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/cronograma" element={<Cronograma />} />
-        <Route path="/poetas" element={<Poetas />} />
-  */}
+        
       </Routes>
       <Footer2 />
     </div>
 
-      {/* <Navegacion/>
-      <Navbar2/>
-      <Container/>
-      <MainPage/>
-      <Videos/>
-      <Footer2/> */}
+     
     </>
   )
 }

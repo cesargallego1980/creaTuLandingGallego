@@ -32,7 +32,7 @@ const ContactForm = () => {
 
   return (
     
-    <div style={{ maxWidth: '600px', margin: '0 auto', padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+    <>
         <div className="ContainerFoto">
         <div className="fotoA">
           {/* <img src={img1} alt="Plato 3" /> */}
@@ -128,7 +128,7 @@ const ContactForm = () => {
           Submit
         </button>
       </form>
-    </div>
+    </>
   );
 };
 

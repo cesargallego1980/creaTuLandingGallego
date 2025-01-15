@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Navbar2() {
   return (
     <nav className="navbar">
-      {/*<h1 className="logo">Mi Sitio</h1>*/}
+      
      
       <div className='contenedor-menu'>
         <Link to="/">Inicio</Link>
