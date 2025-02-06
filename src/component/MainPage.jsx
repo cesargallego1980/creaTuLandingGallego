@@ -5,7 +5,8 @@ import img3 from '../img/RECETA4.jpg';
 import img4 from '../img/RECETA5.jpg';
 import img5 from '../img/RECETA6.jpg';
 import img6 from '../img/RECETA7.jpg';
-import Productos from "./Productos"
+import Productos from "./Productos";
+
 const Filter = ({ render }) => {
   // 1. useState para manejar el valor del input
   const [value, setValue] = useState("");
@@ -29,6 +30,7 @@ const Filter = ({ render }) => {
   );
 };
 const MainPage = () => {
+
 
   const handleAddToCart = (quantity) => {
     //alert(`Has agregado ${quantity} producto(s) al carrito`);
@@ -78,6 +80,8 @@ const MainPage = () => {
   return (
 
     <>
+   
+   
 
       <Filter
         render={(filterValue) => (
@@ -98,6 +102,9 @@ const MainPage = () => {
           </div>
         )}
       />
+
+
+
     </>
   )
 }

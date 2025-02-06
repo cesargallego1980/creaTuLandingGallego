@@ -54,7 +54,7 @@ const Productos = ({stock =10, initial=1,onAdd, img, titulo,titulo2,descripcion}
                         </div>
 
                         {/* Botón de Agregar al carrito */}
-                        <button style={styles.addButton} onClick={() => onAdd(count)}>
+                        <button style={styles.addButton} onClick={() => onAdd(count,img,titulo )}>
                             Agregar al carrito
                         </button>
                     </div>
