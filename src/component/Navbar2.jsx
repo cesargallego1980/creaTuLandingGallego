@@ -13,6 +13,7 @@ function Navbar2() {
         <Link to="/contacto">Contacto</Link>
         <Link to="/about">Sobre Nosotros</Link>
         <Link to="/ubicacion">Ubicacion</Link>
+        <Link to="/galeria">Galeria</Link>
         
       </div>
       

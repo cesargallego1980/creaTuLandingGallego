@@ -66,6 +66,48 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+.contenido-principal {
+	padding-top: 5rem;
+  }
+
+.galeria {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	/* grid-template-columns: 1fr; */
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+  }
+
+  @media (min-width: 768px) {
+	.galeria {
+	  grid-template-columns: repeat(3, 1fr);
+	}
+  }
+  .galeria img {
+	height: 20rem;
+	width: 20rem;
+	object-fit: cover;
+  }
+  .entrada-meta p {
+	font-weight: 700;
+  }
+  .entrada-meta span {
+	color: #037bc0;
+  }
+
+  .entrada {
+	border-bottom: 2px solid #e1e1e1;
+	margin-bottom: 2rem;
+	padding-bottom: 4rem;
+  }
+.contenido-entrada-blog {
+  width: 60rem;
+  margin: 0 auto;
+}
+
 * {
 	margin: 0;
 	padding: 0;

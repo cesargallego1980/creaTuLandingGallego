@@ -13,6 +13,8 @@ import AboutUs from './pages/Aboutus';
 //import  Videos from './component/Videos'
 //import MainPage from "./component/MainPage";
 import { Footer2 } from './component/Footer2';
+import { Galeria } from './pages/Galeria';
+import { Detalle } from './pages/Detalle'
 import './App.css'
 
 
@@ -24,10 +26,13 @@ function App() {
       <div className="App">
       <Navbar2 />
       <Routes>
+
         <Route path="/" element={<Home />} />
         <Route path="/contacto" element={<ContactForm />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/ubicacion" element={<MapEmbed />} />
+        <Route path="/detalle/:id" element={<Detalle />} />
+        <Route path="/galeria" element={<Galeria />} />
         <Route path="*" element={<Componente404 />} />
         
       </Routes>
